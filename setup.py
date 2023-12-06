@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-DESCRIPTION = "My personal Advent of Code helper functions"
+DESCRIPTION = "My personal Advent of Code helper functions."
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 setup(
     name="flatypus-aochelpers",
@@ -12,7 +12,8 @@ setup(
     maintainer="Hinson Chan",
     maintainer_email="<yhc3141@gmail.com>",
     description=DESCRIPTION,
-    packages=find_packages(),
+    long_description=DESCRIPTION,
+    packages=['aochelpers'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
