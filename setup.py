@@ -2,7 +2,7 @@ from setuptools import setup
 
 DESCRIPTION = "My personal Advent of Code helper functions."
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 
 setup(
     name="flatypus-aochelpers",
